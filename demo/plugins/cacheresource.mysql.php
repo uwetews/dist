@@ -146,7 +146,7 @@ class Smarty_CacheResource_Mysql extends Smarty_CacheResource_Custom {
                 . ' OR cache_id LIKE '. $this->db->quote($cache_id .'|%') .')';
         }
         // run delete query
-        $query = $this->db->query($q='DELETE FROM output_cache WHERE ' . join(' AND ', $where));
+        $query = $this->db->query('DELETE FROM output_cache WHERE ' . join(' AND ', $where));
         return $query->rowCount();
     }
 }
