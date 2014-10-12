@@ -4,6 +4,7 @@
 /SMARTY_2_BC_NOTES.txt -text
 /SMARTY_3.0_BC_NOTES.txt -text
 /SMARTY_3.1_NOTES.txt -text
+/composer.json -text
 demo/plugins/cacheresource.apc.php -text
 demo/plugins/cacheresource.memcache.php -text
 demo/plugins/cacheresource.mysql.php -text
